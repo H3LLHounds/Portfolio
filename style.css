@@ -78,3 +78,11 @@ header button {
     margin: 12px 0;
     line-height: 1.5;
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    margin-top: 60px;
+}
