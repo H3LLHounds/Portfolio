@@ -42,3 +42,39 @@ header button {
     display: block;
 }
 
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #007acc, #005999);
+    color: white;
+}
+
+.projects {
+    padding: 40px 10%;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 30px; 
+    margin-top: 20px;
+}
+
+.project-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+
+.project-card h3 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #007acc; 
+    color: #007acc;
+}
+
+.project-card p {
+    margin: 12px 0;
+    line-height: 1.5;
+}
